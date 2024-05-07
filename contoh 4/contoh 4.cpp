@@ -15,3 +15,10 @@ void setnama(mahasiswa& a, string pnama)
 {
 	a.nama = pnama;
 }
+
+int main()
+{
+	mahasiswa joko;
+	setnama(joko, "kairi kumar");
+	return 0;
+}
