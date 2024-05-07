@@ -15,3 +15,11 @@ public:
 
 
 int main()
+{
+	orang joko;
+	joko.setnama("joko susilo");
+	siswa joko_siswa;
+	joko_siswa.setid(1);
+	joko_siswa.displayall(joko);
+	return 0;
+}
